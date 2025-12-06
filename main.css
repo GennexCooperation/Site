@@ -1,11 +1,50 @@
 body {
-  background-color : lightblue;
+  background: linear-gradient(rgb(172, 103, 103), rgb(145, 71, 71)) no-repeat center center fixed,url("BG.png") no-repeat center center fixed;
+  background-size: cover;
+  background-blend-mode: overlay;
 }
 .head {
-  font-size: 36px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 72px;
   text-align: center;
+  text-decoration: underline;
+  background: -webkit-linear-gradient(#9b1010, #310a0a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .subtext {
-  font-size: 24px;
+  font-size: 30px;
   text-align: center;
+}
+
+.subhead {
+  font-size: 30;
+  text-decoration: underline;
+}
+
+.linked {
+  font-size: 18px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:link {
+  color : darkblue;
+}
+
+a:visited {
+  color : purple
+}
+
+a:hover {
+  color : blue;
+}
+
+a:active {
+  color : red;
 }
